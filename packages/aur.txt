@@ -1,0 +1,15 @@
+caelestia-cli
+caelestia-firefox-theme
+caelestia-shell
+darkly-bin
+equibop-bin
+papirus-folders
+qbz-bin
+qtengine
+slack-desktop
+spicetify-cli
+spicetify-marketplace-bin
+spotatui-bin
+spotify
+visual-studio-code-bin
+zapzap

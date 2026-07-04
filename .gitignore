@@ -1,0 +1,24 @@
+# --- Seguridad: NUNCA versionar secretos ---
+*.key
+*.pem
+*_rsa
+*_ed25519
+id_*
+*.gpg
+.env
+.env.*
+secrets*
+*token*
+*credential*
+
+# --- Estado / backups que no van ---
+*.bak
+*.tmp
+*.swp
+*~
+scheme/current.lua
+**/monitors/*/shell.json
+
+# --- Cache ---
+.cache/
+*.log

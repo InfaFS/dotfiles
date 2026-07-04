@@ -1,0 +1,4 @@
+node-gyp
+nopt
+npm
+semver
