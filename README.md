@@ -1,7 +1,16 @@
 # Snapshot de mi instalación CachyOS
 
-Manifiesto reproducible del sistema. Recrea la parte de **paquetes/servicios**.
-Los **dotfiles** (configs de `~/.config`) van aparte con chezmoi/stow.
+Manifiesto reproducible del sistema: **paquetes/servicios** + **configs de `~/.config`**.
+
+## Restauración completa en una máquina nueva (resumen)
+
+```bash
+git clone git@github.com:InfaFS/dotfiles.git ~/dotfiles && cd ~/dotfiles
+bash install.sh          # 1. paquetes (repo + AUR) + servicios systemd
+bash restore-config.sh   # 2. tus configs -> ~/.config (hace backup de lo previo)
+# 3. reiniciar sesión (o hyprctl reload)
+```
+Detalle de monitores en `guides/monitors.md`.
 
 ## Contenido
 

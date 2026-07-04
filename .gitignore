@@ -16,7 +16,7 @@ secrets*
 *.tmp
 *.swp
 *~
-scheme/current.lua
+**/scheme/current.lua
 **/monitors/*/shell.json
 
 # --- Cache ---
